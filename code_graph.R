@@ -166,8 +166,8 @@ ggplot(merged_data2, aes(x = LN_GDP_pc)) +
   theme(
     axis.text = element_text(size = 10, face = "bold"),  # Größer & fett für bessere Lesbarkeit
     axis.title = element_text(size = 10, face = "bold"),  # Größer & fett für mehr Deutlichkeit
-    axis.line = element_line(size = 1.1, color = "grey"),  # Dickere Achsenlinien
-    axis.ticks = element_line(size = 0.8, color = "grey"),  # Verstärkte Tick-Markierungen
+    axis.line = element_line(linewidth = 1.1, color = "grey"),  # Dickere Achsenlinien
+    axis.ticks = element_line(linewidth = 0.8, color = "grey"),  # Verstärkte Tick-Markierungen
     legend.text = element_text(size = 12),  
     legend.title = element_text(size = 14, face = "bold")  
   )
